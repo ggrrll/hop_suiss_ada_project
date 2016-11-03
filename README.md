@@ -1,4 +1,4 @@
-# hop_suiss_ada_project
+# hop_suisse_ada_project_public         
 
 Repository for ADA project
 
