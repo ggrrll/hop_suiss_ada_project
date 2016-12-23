@@ -23,11 +23,11 @@ NB : The project is run by a new team, obtained by merging two ADA teams
 
 In this section we describe our steps, (more or less) chronologically.
 
-* [project proposal](project_proposal/project_proposal_hop_suisse.md) :
+* [project proposal](1-project_proposal/project_proposal_hop_suisse.md) :
 
 > Describes guideline, goals and objectives of the project.
 
-* [global parsing](parsing/global_parsing.ipynb) :
+* [global parsing](2-global_parsing/global_parsing.ipynb) :
 
 > From datasport main page, make requests to extract all the names, dates and
 > places of every running competition, and the url links where to find the
@@ -36,7 +36,7 @@ In this section we describe our steps, (more or less) chronologically.
 > Results :
 > * [`links2runs.csv`](datasets/links2runs.csv)
 
-* [ranking parsing](parsing/parsing_datasport.ipynb) : 
+* [ranking parsing](3-ranking_parsing/parsing_datasport.ipynb) : 
 
 > From every url found in `links2runs.csv`, get all the information about every
 > specific race, that is all the information about every runner : name, age,
@@ -46,7 +46,7 @@ In this section we describe our steps, (more or less) chronologically.
 > Results :
 > * [`full_database.csv`](https://www.dropbox.com/s/tt9z5bik6uqndbz/full_database.csv?dl=0) (temporarily hosted on Dropox)
 
-* [weather](weather/weather_utils.py) :
+* [weather](4-weather/weather_utils.py) :
 
 > From `links2runs.csv` consider every date and place and (try to) find the corresponding
 > weather and temperature in order to do performance analysis with respect to the
@@ -56,7 +56,7 @@ In this section we describe our steps, (more or less) chronologically.
 > Results :
 > * [`races-information-weather.csv`](datasets/races-information-weather.csv)
 
-* [gathering information](parsing/races_information.ipynb) :
+* [gathering information](5-gathering_information/races_information.ipynb) :
 
 > Extra steps to build, on top of `links2runs.csv`, a more complete table
 > containing the scraped information plus the weather information and GPS
@@ -65,15 +65,15 @@ In this section we describe our steps, (more or less) chronologically.
 > Results :
 > * [`races-information.csv`](datasets/races-information.csv)
 
-* [data analysis](data_analysis) :
+* [data analysis](6-data_analysis) :
 
 > Data analysis, both on particular cases like Lausanne Marathon, and on the
 > global dataset.
 
-* [visualization](https://hopsuisse.github.io) :
+* [visualization](7-visualization) :
 
 > Our goal is to display the gathered data and the analysis on a website, in a
-> more "user-friendly" way than Datasport. The website pointed by the title
-> above is an early attempt at mastering GitHub Pages, Jekyll, D3.js, Leaflet,
-> etc... :wink:
+> more "user-friendly" way than Datasport. The website pointed by [this
+> link](https://hopsuisse.github.io) is an early attempt at mastering GitHub
+> Pages, Jekyll, D3.js, Leaflet, etc... :wink:
 
