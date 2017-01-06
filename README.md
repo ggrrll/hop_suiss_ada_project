@@ -44,7 +44,7 @@ In this section we describe our steps, (more or less) chronologically.
 > things, this is not an easy step :grin:
 >
 > Results :
-> * [`full_database.csv`](https://www.dropbox.com/s/tt9z5bik6uqndbz/full_database.csv?dl=0) (temporarily hosted on Dropox)
+> * [`full_database.csv`](https://drive.google.com/file/d/0BypxDaHZHjhfYTBsMGM2WVlFdkU/view) (temporarily hosted on Google Drive)
 
 * [weather](4-weather/weather_utils.py) :
 
