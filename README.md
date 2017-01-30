@@ -74,6 +74,6 @@ In this section we describe our steps, (more or less) chronologically.
 
 > Our goal is to display the gathered data and the analysis on a website, in a
 > more "user-friendly" way than Datasport. The website pointed by [this
-> link](https://hopsuisse.github.io) is an early attempt at mastering GitHub
+> link](https://hopsuisse.github.io) is the result, using GitHub
 > Pages, Jekyll, D3.js, Leaflet, etc... :wink:
 
