@@ -77,3 +77,9 @@ In this section we describe our steps, (more or less) chronologically.
 > link](https://hopsuisse.github.io) is the result, using GitHub
 > Pages, Jekyll, D3.js, Leaflet, etc... :wink:
 
+* [video](8-video):
+
+> We have created a short video that can be found [here](https://www.youtube.com/watch?v=KzeR-H7_xlE) 
+> in order to visualize the huge Datasport dataset in a concise way. Our 
+> inspiration comes from the famous [Hans Rosling's video](https://www.youtube.com/watch?v=jbkSRLYSojo).
+
