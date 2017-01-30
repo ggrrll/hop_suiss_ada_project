@@ -1,0 +1,19 @@
+# Data analysis
+
+
+In this folder we present our data analysis on the full dataset,
+ as well as on the Lausanne Marathon 2016.
+
+
+* [`lausanne_marathon_analysis:`](lausanne_marathon_analysis.ipynb) exploratory statistics on the Lausanen Marathon 2016. After a brief descriptive analysis, we assess differences on age and performance, across sex and race distance.
+
+* [`exploratory_full_sport_dataset:`](exploratory_full_sport_dataset.ipynb)   exploratory statistics on the full dataset. We first study how participation to sport events evolves in time. 
+After, we study how age and weather conditions might influence runner's performance.
+
+* [`1_stats:`](1_stats.ipynb)  ---> antonio's part
+
+* [`2_geoscraping:`](2_geoscraping.ipynb) ---> antonio's part
+
+* [`network_of_runners:`](network_of_runners.ipynb) in this notebook we tried a complex network approach on runners.
+We define a network of runners (nodes), linked according to the number of races they run together (edge weight).
+
