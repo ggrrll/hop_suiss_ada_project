@@ -68,7 +68,8 @@ In this section we describe our steps, (more or less) chronologically.
 * [data analysis](6-data_analysis) :
 
 > Data analysis, both on particular cases like Lausanne Marathon, and on the
-> global dataset.
+> global dataset - in order to run the analysis on the full dataset, one should first download the
+[`pickle`](https://drive.google.com/file/d/0BypxDaHZHjhfYTBsMGM2WVlFdkU/view) file
 
 * [visualization](7-visualization) :
 
