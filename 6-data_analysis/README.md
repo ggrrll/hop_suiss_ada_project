@@ -10,7 +10,7 @@ In this folder we present our data analysis on the full dataset,
 * [`exploratory_full_sport_dataset:`](exploratory_full_sport_dataset.ipynb)   exploratory statistics on the full dataset. We first study how participation to sport events evolves in time. 
 After, we study how age and weather conditions might influence runner's performance.
 
-* [`complementary_lausanne:`](https://nbviewer.jupyter.org/github/ggrrll/hop_suisse_ada_project_public/blob/master/6-data_analysis/complementary_lausanne.ipynb) A short notebook where non-parametric tests for age/sex distribution for the Lausanne Marathon 2016 are implemented.
+* [`complementary_lausanne:`](https://nbviewer.jupyter.org/github/ggrrll/hop_suisse_ada_project_public/blob/master/6-data_analysis/complementary_lausanne.ipynb) A short notebook where non-parametric tests for age/sex distribution of the Lausanne Marathon 2016 are implemented.
 
 * [`geoanalysis:`](https://nbviewer.jupyter.org/github/ggrrll/hop_suisse_ada_project_public/blob/master/6-data_analysis/geoanalysis.ipynb) In this notebook we explore the possible links between statistical and geographical patterns in the time distribution for marathon runners.
 
