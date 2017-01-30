@@ -10,9 +10,7 @@ In this folder we present our data analysis on the full dataset,
 * [`exploratory_full_sport_dataset:`](exploratory_full_sport_dataset.ipynb)   exploratory statistics on the full dataset. We first study how participation to sport events evolves in time. 
 After, we study how age and weather conditions might influence runner's performance.
 
-* [`1_stats:`](1_stats.ipynb)  ---> antonio's part
-
-* [`2_geoscraping:`](2_geoscraping.ipynb) ---> antonio's part
+* [`complementary_lausanne:`](https://nbviewer.jupyter.org/github/ggrrll/hop_suisse_ada_project_public/blob/master/6-data_analysis/complementary_lausanne.ipynb)  ---> antonio's part
 
 * [`network_of_runners:`](network_of_runners.ipynb) in this notebook we tried a complex network approach on runners.
 We define a network of runners (nodes), linked according to the number of races they run together (edge weight).
