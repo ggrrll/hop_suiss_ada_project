@@ -13,7 +13,7 @@ After, we study how age and weather conditions might influence runner's performa
 
 * [`complementary_lausanne:`](https://nbviewer.jupyter.org/github/ggrrll/hop_suisse_ada_project_public/blob/master/6-data_analysis/complementary_lausanne.ipynb) A short notebook where non-parametric tests for age/sex distribution of the Lausanne Marathon 2016 are implemented.
 
-* [`geoanalysis:`](https://nbviewer.jupyter.org/github/ggrrll/hop_suisse_ada_project_public/blob/master/6-data_analysis/geoanalysis.ipynb) In this notebook we explore the possible links between statistical and geographical patterns in the time distribution for marathon runners. Requires the .pickle dataset to be run, as well as [swisscities.xlsx](../datasets/swisscities.xlsx) and canton_population.xlsx.
+* [`geoanalysis:`](https://nbviewer.jupyter.org/github/ggrrll/hop_suisse_ada_project_public/blob/master/6-data_analysis/geoanalysis.ipynb) In this notebook we explore the possible links between statistical and geographical patterns in the time distribution for marathon runners. Requires the .pickle dataset to be run, as well as [swisscities.xlsx](../datasets/swisscities.xlsx) and [canton_population.xlsx](../datasets/canton_population.xlsx).
 
 * [`network_of_runners:`](https://nbviewer.jupyter.org/github/ggrrll/hop_suisse_ada_project_public/blob/master/6-data_analysis/network_of_runners.ipynb) in this notebook we tried a complex network approach on runners.
 We define a network of runners (nodes), linked according to the number of races they run together (edge weight).
