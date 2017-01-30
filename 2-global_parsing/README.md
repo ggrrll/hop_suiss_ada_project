@@ -12,4 +12,4 @@ Switzerland. We want to extract the following information on the data:
 
 * URL of the page where the rankings are given.
 
-The notebook geoscraping.ipynb provides some geographical information specifically for the Lausanne Marathon (2016 edition) with the usage of a Google API.
+The notebook [geoscraping.ipynb](geoscraping.ipynb) provides some geographical information specifically for the Lausanne Marathon (2016 edition) with the usage of a Google API.
