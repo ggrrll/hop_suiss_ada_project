@@ -12,6 +12,8 @@ After, we study how age and weather conditions might influence runner's performa
 
 * [`complementary_lausanne:`](https://nbviewer.jupyter.org/github/ggrrll/hop_suisse_ada_project_public/blob/master/6-data_analysis/complementary_lausanne.ipynb)  ---> antonio's part
 
+* [`geoanalysis:`](https://nbviewer.jupyter.org/github/ggrrll/hop_suisse_ada_project_public/blob/master/6-data_analysis/geoanalysis.ipynb)
+---> antonio's part
+
 * [`network_of_runners:`](https://nbviewer.jupyter.org/github/ggrrll/hop_suisse_ada_project_public/blob/master/6-data_analysis/network_of_runners.ipynb) in this notebook we tried a complex network approach on runners.
 We define a network of runners (nodes), linked according to the number of races they run together (edge weight).
-
