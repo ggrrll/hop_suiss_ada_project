@@ -5,7 +5,8 @@ In this folder we present our data analysis on the full dataset,
  as well as on the Lausanne Marathon 2016.
 
 
-* [`lausanne_marathon_analysis:`]() exploratory statistics on the Lausanen Marathon 2016. After a brief descriptive analysis, we assess differences on age and performance, across sex and race distance.
+* [`lausanne_marathon_analysis:`](https://nbviewer.jupyter.org/github/ggrrll/hop_suisse_ada_project_public/blob/master/6-data_analysis/lausanne_marathon_analysis.ipynb) 
+exploratory statistics on the Lausanen Marathon 2016. After a brief descriptive analysis, we assess differences on age and performance, across sex and race distance.
 
 * [`exploratory_full_sport_dataset:`](https://nbviewer.jupyter.org/github/ggrrll/hop_suisse_ada_project_public/blob/master/6-data_analysis/exploratory_full_sport_dataset.ipynb)
 exploratory statistics on the full dataset. We first study how participation to sport events evolves in time. 
