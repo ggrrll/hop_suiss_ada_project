@@ -5,7 +5,7 @@ The goal of this project is data scraping, analysis and visualization from the
 [Datasport](https://www.datasport.com) website, focusing on the "running" data.
 
 A more detailed description of the steps followed can be found
-[below](#working-steps).
+[below](#working-steps) and on the [poster](poster.pdf). 
 
 
 ## Team
