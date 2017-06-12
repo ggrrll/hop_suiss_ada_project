@@ -9,7 +9,7 @@ We plotted 6 variables:
 - **Pace** - y axis
 - **Percentage of new runners on the total** - x axis
 - **Age of the runner** - time
-- **Race lenght** - spheres
+- **Race length** - spheres
 - **Sex** - spheres color
 - **Number of runners** - sphere size
 
