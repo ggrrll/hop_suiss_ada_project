@@ -1,8 +1,8 @@
-# hop_suisse_ada_project_public         
+# Hop Suisse - public repo for our [ADA](http://ada.epfl.ch) project          
 
-Repository for ADA project.
-The goal of this project is data scraping, analysis and visualization from the
-[Datasport](https://www.datasport.com) website, focusing on the "running" data.
+
+In this project we performed data scraping, analysis and visualization from the
+[Datasport](https://www.datasport.com) website, focusing on records of running races.
 
 A more detailed description of the steps followed can be found
 [below](#working-steps) and on the [poster](poster.pdf). 
