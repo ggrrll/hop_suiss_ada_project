@@ -10,7 +10,7 @@ A more detailed description of the steps followed can be found
 
 ## Team
 
-NB : The project is run by a new team, obtained by merging two ADA teams 
+The project is run by a new team, obtained by merging two previous ADA teams:
 
 - [Ondine Chanon](https://github.com/ochanon)
 - [Maxime Peschard](https://github.com/maximepeschard)
@@ -19,18 +19,18 @@ NB : The project is run by a new team, obtained by merging two ADA teams
 - [Antonio Iubatti](https://github.com/antonioiubatti93)
 
 
-## Working steps
+## Workflow
 
-In this section we describe our steps, (more or less) chronologically.
+Here is a breif list of the steps we went through in our ourject.
 
 * [project proposal](1-project_proposal/project_proposal_hop_suisse.md) :
 
-> Describes guideline, goals and objectives of the project.
+> Describes guideline and goals of the project.
 
 * [global parsing](2-global_parsing/global_parsing.ipynb) :
 
-> From datasport main page, make requests to extract all the names, dates and
-> places of every running competition, and the url links where to find the
+> From the datasport main page, we make requests to extract all names, dates and
+> places of every running competition, as well as the urls where to find the
 > results.
 >
 > Results :
@@ -38,19 +38,20 @@ In this section we describe our steps, (more or less) chronologically.
 
 * [ranking parsing](3-ranking_parsing/parsing_datasport.ipynb) : 
 
-> From every url found in `links2runs.csv`, get all the information about every
-> specific race, that is all the information about every runner : name, age,
+> From every url found in `links2runs.csv`, we get all information about every
+>  race, namely the information on each runner: name, age,
 > category, ranking, pace, etc. Note that given the way Datasport displays
-> things, this is not an easy step :grin:
+> his records, the parsing step was quite non trivial.
 >
 > Results :
 > * [`pickle`](https://drive.google.com/file/d/0BypxDaHZHjhfYTBsMGM2WVlFdkU/view) (temporarily hosted on Google Drive)
 
 * [weather](4-weather/weather_utils.py) :
 
-> From `links2runs.csv` consider every date and place and (try to) find the corresponding
-> weather and temperature in order to do performance analysis with respect to the
-> weather/temperature. Due to the API used, such information for races older than
+> From `links2runs.csv` we consider every date and place and search for the corresponding
+> weather and temperature in order to investigate correlation between the runners' performances and the
+> weather/temperature. 
+> Due to the API used, such weather information for races older than
 > July 2008 is not available.
 > 
 > Results :
@@ -58,7 +59,7 @@ In this section we describe our steps, (more or less) chronologically.
 
 * [gathering information](5-gathering_information/races_information.ipynb) :
 
-> Extra steps to build, on top of `links2runs.csv`, a more complete table
+> Extra steps to build on top of `links2runs.csv` a more complete table
 > containing the scraped information plus the weather information and GPS
 > coordinates for each location when available.
 > 
@@ -67,20 +68,20 @@ In this section we describe our steps, (more or less) chronologically.
 
 * [data analysis](6-data_analysis) :
 
-> Data analysis, both on particular cases like Lausanne Marathon, and on the
-> global dataset - in order to run the analysis on the full dataset, one should first download the
+> Data analysis performed both on particular races like Lausanne Marathon and on the
+> entire dataset - in order to run the analysis on the full dataset, one should first download the
 [`pickle`](https://drive.google.com/file/d/0BypxDaHZHjhfYTBsMGM2WVlFdkU/view) file
 
 * [visualization](7-visualization) :
 
 > Our goal is to display the gathered data and the analysis on a website, in a
-> more "user-friendly" way than Datasport. The website pointed by [this
-> link](https://hopsuisse.github.io) is the result, using GitHub
-> Pages, Jekyll, D3.js, Leaflet, etc... :wink:
+> more "user-friendly" way than Datasport. 
+> Our [hopsuisse website](https://hopsuisse.github.io) is the result, for which we used GitHub
+> Pages, Jekyll, D3.js, Leaflet, and other tools.
 
 * [video](8-video):
 
-> We have created a short video that can be found [here](https://www.youtube.com/watch?v=MyvbnOXHShw) 
-> in order to visualize the huge Datasport dataset in a concise way. Our 
-> inspiration comes from the famous [Hans Rosling's video](https://www.youtube.com/watch?v=jbkSRLYSojo).
+> We created a [short video](https://www.youtube.com/watch?v=MyvbnOXHShw) 
+> in order to help visualize the large Datasport dataset in a concise way. This video was inpsired by the popular
+[Hans Rosling's video](https://www.youtube.com/watch?v=jbkSRLYSojo).
 
