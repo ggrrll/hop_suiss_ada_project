@@ -4,7 +4,7 @@
 In this project we performed data scraping, analysis and visualization from the
 [Datasport](https://www.datasport.com) website, focusing on records of running races.
 
-A more detailed description of the steps followed can be found
+A more detailed description of the steps we followed can be found
 [below](#working-steps) and on the [poster](poster.pdf). 
 
 
