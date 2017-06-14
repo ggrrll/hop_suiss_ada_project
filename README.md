@@ -21,7 +21,7 @@ The project is run by a new team, obtained by merging two previous ADA teams:
 
 ## Workflow
 
-Here is a breif list of the steps we went through in our ourject.
+Here is a brief list of the steps we went through in our ourject.
 
 * [project proposal](1-project_proposal/project_proposal_hop_suisse.md) :
 
